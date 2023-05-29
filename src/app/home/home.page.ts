@@ -34,9 +34,9 @@ export class HomePage {
   constructor(private toastController: ToastController) {
     this.db = db;
     this.product = {
-      name: 'Teste',
-      description: 'Teste',
-      price: '50',
+      name: '',
+      description: '',
+      price: '',
     };
   }
 
